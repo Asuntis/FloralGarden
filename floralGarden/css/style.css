@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    flex: 1 1 auto;
+}
+@font-face {
+    font-family: "Montserrat";
+    src: url(../font/Montserrat-VariableFont_wght.ttf)
+}
+a, li, p, h1{
+    font-family: "Montserrat";
+}
+header{
+    background-image: url(/img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 875px;
+}
+.fon{
+    margin-left: 170px;
+    margin-top: 37px;
+}
+.burger-menu span {
+    position: relative;
+    width: 25px;
+    height: 3px;
+    background: #fff;
+    margin: 4px 0;
+    transition: all 0.3s;
+    top: 50px !important;
+    right: 20px !important;
+
+}
+.nav-links {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    background: #333;
+    width: 200px;
+    padding: 10px 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+nav ul{
+    display: flex;
+    margin-right: 99px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+nav ul li{
+    margin-right: 22px;
+    font-size: 24px;
+}
+.slo{
+    font-size: 60px; 
+    margin: 10px;
+}
+.slo2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+header2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 170px;
+    margin-bottom: 100px;
+}
+.button{
+    width: fit-content;
+    border-radius: 4px;
+    border:1px solid #0F500A;
+    background-color: #0F500A;
+    padding: 5px 50px 5px 50px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+.green{
+    color: #0F500A;
+    font-weight: normal;
+}
+.zag{
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    margin: 36px;
+    margin-bottom: 36px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.min-con{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 63px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    width: -300px !important;
+}
+.name{
+    font-size: 19px;
+    margin-top: 23px;
+    margin-bottom: 13px;
+}
+.price{
+    font-size: 26px;
+    margin-bottom: 13px;
+}
+button{
+    border: 1px solid black ;
+    background-color: white;
+    padding: 5px 20px 5px 20px;
+    font-size: 24px;
+    border-radius: 4px;
+}
+button img{
+    margin-right: 10px;
+}
+.cardhold{
+    display: flex;
+    
+}
+.fg{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+/* .dislike{
+    background-image: url(/imgF/dislike.svg) ;
+    position: absolute;
+    background-size: contain;
+    height: 10px;
+} */
+.cardhold{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* .card{
+    margin-right: 40px;
+} */
+.cat{
+    margin-top: 63px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+}
+.bann{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+footer ul{
+    list-style-type: none;
+    margin-top: 64px;
+}
+footer li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 250px;
+}
+.btn{
+    margin-top: 10px;
+}
+input{
+    margin-right: 10px;
+}
+form{
+    margin-bottom: 20px;
+}
+.zagl1{
+    margin-left: 0;
+}
+.card_cat img{
+    width: 80%;
+}
+.card{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+.card1{
+    width: 50%;
+}
+.fon1{
+    display: none;
+}
+
+.img_cart_php {
+    width: 250px;
+}
+
+.otlozh_image {
+    width: 250px;
+}
+
+.zvet{
+    width: 50%;
+}
+.container2{
+display: none;
+}
+.fon2{
+    display: none;
+}
+.footRas2{
+    display: none;
+}
+nav {
+    position: relative;
+}
+
+.burger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: -25px;
+}
+
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    display: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.flS{
+    display: none;
+}
+.bann1{
+    display: none;
+}
+@media (max-width: 1300px) {
+    .slo {
+        font-size: 50px;
+        margin: 10px;
+    }
+    nav ul li {
+        margin-right: 20px;
+        font-size: 20px;
+    }
+    .fon{
+        display: none;
+    }
+    .fon1{
+        display: flex;
+        margin-left: 120px;
+    }
+    .container img{
+        width: 60%;
+    }
+    .ww{
+        width: 100% !important;
+    }
+    .min-con img{
+        width: 80%;
+    }
+    nav ul img{
+        width: 80%;
+    }
+    /* .zvet{
+        width: 50% !important; 
+    } */
+    .qw{
+        display: flex;
+        align-items: center;
+    }
+    
+    .card{
+        width: -100px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+    }
+    footer ul li{
+        font-size: 15px;
+    }
+    .container1{
+        display: none;
+    }
+    .container2{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .foor3{
+        display: none;
+    }
+}
+@media (max-width: 1100px){
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .container2 img{
+        margin-bottom: 20px;
+    }
+    .fon{
+        display: none;
+    }
+    .fon2{
+        display: flex;
+        margin-left: 70px;
+    }
+    nav ul {
+        margin-right: 50px;
+    }
+    header2 {
+        margin-top: 70px;
+        margin-left: 60px;
+    }
+    .slo {
+        font-size: 35px;
+        margin: 10px;
+    }
+    .slo2 {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .zag {
+        font-size: 30px;
+    }
+    footer ul {
+        margin-top: 30px;
+    }
+    .footRas{
+        display: none;
+    }
+    .footRas2{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+    .buttonF{
+        margin-left: 0px;
+    }
+   
+}
+
+@media (max-width: 780px){
+    .ee{
+        display: none;
+    }
+    .foor3{
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+    }
+    .ff{
+        display: flex;
+        justify-content: center;
+    }
+    .foor4{
+        display: none;
+    }
+    .burger-menu {
+        display: flex;
+    }
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        background: #e4e4e4;
+        width: 200px;
+        padding: 10px 20px;
+    }
+    .nav-links li a {
+        margin: 10px 0;
+        color: black;
+    }
+    .nav-links img {
+        width: 30%;
+    }
+    .nav-links.active {
+        display: flex;
+    }
+    .bur{
+        display: none;
+    }
+    .slo {
+        font-size: 24px;
+    }
+    header2 {
+        margin-top: 32px;
+        margin-left: 28px;
+    }
+    .zag {
+        font-size: 15px;
+    }
+    .container2{
+        margin: 0 auto;
+        display: flex;
+    }
+    .flS{
+        display: flex;
+    }
+    .fl{
+        display: none;
+    }
+    .ff ul li{
+        font-size: 10px;
+    }
+    .buttonF {
+        font-size: 10px;
+        width: 90%;
+    }
+    input {
+        border: none;
+        border-bottom: 2px solid rgb(0, 0, 0);
+         width: 150px;
+    }
+    .bann1{
+        display: flex;
+        width: 100%;
+    }
+    .bann{
+        display: none;
+    }
+    .zag {
+        margin: 30px;
+        margin-bottom: 25px;
+    }
+}
